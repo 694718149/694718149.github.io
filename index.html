@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to jun's workshop</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script language="javascript">
+	function showPic(e,sUrl){
+
+                            var x,y;
+
+                            x = e.clientX;
+
+                            y = e.clientY;
+
+                            document.getElementById("Layer1").style.left = x+2+'px';
+
+                            document.getElementById("Layer1").style.top = y+2+'px';
+
+                            document.getElementById("Layer1").innerHTML = "<img border='0' src=\"" + sUrl + "\">";
+
+                            document.getElementById("Layer1").style.display = "";
+
+                            }
+
+                            function hiddenPic(){
+
+                            document.getElementById("Layer1").innerHTML = "";
+
+                            document.getElementById("Layer1").style.display = "none";
+
+                        }
+
+    </script>
 </head>
+
 <body>
-	<h1 style='text-align:center;font-size:32px;color:blue'>Hello!</h1>
-	<div id='marguee' style='text-align:center;font-size:42px;color:red'>Welcome to jun's workshop！</div>
-	<p style='text-align:center;font-size:12px;color:gray'>this is jun's blog！</p>
+
+    <div id="Layer1" style="display: none; position: absolute; z-index: 100;">
+    </div>
+    <p>
+        <a href="" onmouseout="hiddenPic();" onmousemove="showPic(event,'http://localhost/wordpress/wp-content/uploads/2017/03/qrcode_for_gh_813b5e853fda_430.jpg');">
+
+            jun工作室</a>
+    </p>
+
 </body>
+
 </html>
