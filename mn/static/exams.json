@@ -1,0 +1,38 @@
+[
+	{
+	    "id": 1,
+	    "examId": 1,
+	    "examTitle": "                 B   ",
+	    "selections":[
+	    	{"choice":"A","body":"      "},
+	    	{"choice":"B","body":"    "},
+			{"choice":"C","body":"     "},
+			{"choice":"D","body":"    "},
+			{"choice":"E","body":"     "}
+	    ],
+	    "answer": "A",
+	    "isMulti":false
+	},
+	{
+		"id": 2,
+	    "examId": 2,
+	    "examTitle": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+	    "selections":[
+	    	{"choice":"A","body":"答案A"},
+	    	{"choice":"B","body":"答案B"}
+	    ],
+	    "answer": "B",
+	    "isMulti":false
+	},
+	{
+		"id": 3,
+	    "examId": 3,
+	    "examTitle": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+	    "selections":[
+	    	{"choice":"A","body":"答案A"},
+	    	{"choice":"B","body":"答案B"}
+	    ],
+	    "answer": "C",
+	    "isMulti":true
+	}
+]
