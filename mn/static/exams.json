@@ -1,38 +1,562 @@
 [
-	{
-	    "id": 1,
-	    "examId": 1,
-	    "examTitle": "                 B   ",
-	    "selections":[
-	    	{"choice":"A","body":"      "},
-	    	{"choice":"B","body":"    "},
-			{"choice":"C","body":"     "},
-			{"choice":"D","body":"    "},
-			{"choice":"E","body":"     "}
-	    ],
-	    "answer": "A",
-	    "isMulti":false
-	},
-	{
-		"id": 2,
-	    "examId": 2,
-	    "examTitle": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-	    "selections":[
-	    	{"choice":"A","body":"答案A"},
-	    	{"choice":"B","body":"答案B"}
-	    ],
-	    "answer": "B",
-	    "isMulti":false
-	},
-	{
-		"id": 3,
-	    "examId": 3,
-	    "examTitle": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-	    "selections":[
-	    	{"choice":"A","body":"答案A"},
-	    	{"choice":"B","body":"答案B"}
-	    ],
-	    "answer": "C",
-	    "isMulti":true
-	}
+ {
+ "id": 111,
+ "examId": 111,
+ "examTitle":"可被患者自行感知的体征是( C )",
+  "selections":[
+        {"choice":"A","body":"肝肿大"},
+      {"choice":"B","body":"心脏杂音"},
+      {"choice":"C","body":"水肿"},
+      {"choice":"D","body":"肺部哕音"},
+      {"choice":"E","body":"病理反射阳性"}
+  ],
+  "isMulti":false,
+  "answer":""
+},
+{
+ "id": 112,
+ "examId": 112,
+ "examTitle":"属感染性发热的疾病是(  B  )",
+    "selections":[
+        {"choice":"A","body":"肝癌"},
+        {"choice":"B","body":"斑疹伤寒"},
+        {"choice":"C","body":"白血病"},
+        {"choice":"D","body":"风湿热"},
+        {"choice":"E","body":"广泛性皮炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   113,
+ "examId":   113,
+ "examTitle":"下列各项，可引起腹痛伴休克的是(  B  )",
+    "selections":[
+        {"choice":"A","body":"溃疡性结肠炎"},
+        {"choice":"B","body":"肝破裂"},
+        {"choice":"C","body":"慢性胰腺炎"},
+        {"choice":"D","body":"胃癌"},
+        {"choice":"E","body":"急性阑尾炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   114,
+ "examId":   114,
+ "examTitle":"幽门梗阻时，呕吐物的特点是( B )",
+    "selections":[
+        {"choice":"A","body":"含血液"},
+        {"choice":"B","body":"隔夜食物"},
+        {"choice":"C","body":"大量黏液"},
+        {"choice":"D","body":"咖啡色"},
+        {"choice":"E","body":"黄绿色稀薄液"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   115,
+ "examId":   115,
+ "examTitle":"可引起黄疸持续性加重的疾病是(  C  )",
+    "selections":[
+        {"choice":"A","body":"胆石症"},
+        {"choice":"B","body":"肝炎"},
+        {"choice":"C","body":"肝癌"},
+        {"choice":"D","body":"急性胰腺炎"},
+        {"choice":"E","body":"胆道蛔虫症"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   116,
+ "examId":   116,
+ "examTitle":"先有体温升高后有意识障碍的疾病是( B )  。",
+    "selections":[
+        {"choice":"A","body":"脑出血"},
+        {"choice":"B","body":"病毒性脑炎"},
+        {"choice":"C","body":"蛛网膜下腔出血"},
+        {"choice":"D","body":"巴比妥中毒"},
+        {"choice":"E","body":"冬眠灵中毒"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   117,
+ "examId":   117,
+ "examTitle":"可引起胸痛并向左肩、左前臂放射的是(  D  )",
+    "selections":[
+        {"choice":"A","body":"急性心包炎"},
+        {"choice":"B","body":"纵隔疾病"},
+        {"choice":"C","body":"急性胸膜炎"},
+        {"choice":"D","body":"心绞痛"},
+        {"choice":"E","body":"食管炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":118,
+    "examId":18,
+    "examTitle":"正确诊断的第一步是(  B  )",
+    "selections":[
+        {"choice":"A","body":"体格检查"},
+        {"choice":"B","body":"问诊"},
+        {"choice":"C","body":"实验室检查"},
+        {"choice":"D","body":"CT检查"},
+        {"choice":"E","body":"心电图检查"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   119,
+ "examId":   119,
+ "examTitle":"对危重病人正确的做法是(  B  )",
+    "selections":[
+        {"choice":"A","body":"必须仔细问诊，以免误诊"},
+        {"choice":"B","body":"简要问诊，重点体检，迅速抢救"},
+        {"choice":"C","body":"全面体检，收集完整资料"},
+        {"choice":"D","body":"等待化验结果，然后治疗"},
+        {"choice":"E","body":"立即转院"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":120,
+    "examId":120,
+    "examTitle":"可引起肝浊音界消失的疾病是( E  )",
+    "selections":[
+        {"choice":"A","body":"急性胃炎"},
+        {"choice":"B","body":"急性胆囊炎"},
+        {"choice":"C","body":"急性胰腺炎"},
+        {"choice":"D","body":"急性阑尾炎"},
+        {"choice":"E","body":"胃溃疡穿孔"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   121,
+ "examId":   121,
+ "examTitle":"诊断主动脉瓣关闭不全最重要的体征是(  E  )",
+    "selections":[
+        {"choice":"A","body":"靴形心"},
+        {"choice":"B","body":"水冲脉"},
+        {"choice":"C","body":"心尖区第一心音减弱"},
+        {"choice":"D","body":"心尖部柔和收缩期杂膏"},
+        {"choice":"E","body":"主动脉瓣区舒张期杂音"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   122,
+ "examId":   122,
+ "examTitle":"长期服用肾上腺糖皮质激素的病人会出现的面容是(  B  )",
+    "selections":[
+        {"choice":"A","body":"黏液性水肿病容"},
+        {"choice":"B","body":"满月面容"},
+        {"choice":"C","body":"二尖瓣面容"},
+        {"choice":"D","body":"无欲貌"},
+        {"choice":"E","body":"苦笑面容"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   123,
+ "examId":   123,
+ "examTitle":"空腹昕诊，可出现振水音的疾病是( D )",
+    "selections":[
+        {"choice":"A","body":"肝硬化腹水"},
+        {"choice":"B","body":"结核性腹膜炎"},
+        {"choice":"C","body":"急性肠炎"},
+        {"choice":"D","body":"幽门梗阻"},
+        {"choice":"E","body":"肾病综合征"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 124,
+ "examId": 124,
+ "examTitle":"肺气肿时，心脏浊音界的改变多为(  E  )",
+    "selections":[
+        {"choice":"A","body":"心浊音界向左扩大"},
+        {"choice":"B","body":"心浊音界向右扩大"},
+        {"choice":"C","body":"心底部扩大"},
+        {"choice":"D","body":"心浊音界向两侧扩大"},
+        {"choice":"E","body":"心浊音界缩小"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   125,
+ "examId":   125,
+ "examTitle":"下列各项，不出现胸壁压痛的是(  E  )",
+    "selections":[
+        {"choice":"A","body":"肋间神经炎"},
+        {"choice":"B","body":"肋骨骨折"},
+        {"choice":"C","body":"肋软骨炎"},
+        {"choice":"D","body":"胸壁带状疱疹"},
+        {"choice":"E","body":"胸膜炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   126,
+ "examId":   126,
+ "examTitle":"慢性阻塞性肺气肿时不会出现的体征是( E )",
+    "selections":[
+        {"choice":"A","body":"桶状胸"},
+        {"choice":"B","body":"触觉语颤减弱"},
+        {"choice":"C","body":"肺下界下移"},
+        {"choice":"D","body":"肺下界移动度减小"},
+        {"choice":"E","body":"吸气期明显延长"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 127,
+ "examId": 127,
+ "examTitle":"主动脉瓣狭窄，可出现的体征是(  D  )",
+    "selections":[
+        {"choice":"A","body":"心尖部舒张期震颤"},
+        {"choice":"B","body":"胸骨左缘第2肋间收缩期震颤"},
+        {"choice":"C","body":"胸骨左缘笫2肋间舒张期震颤"},
+        {"choice":"D","body":"胸骨右缘第2肋间收缩期震颤"},
+        {"choice":"E","body":"胸骨右缘第2肋间舒张期震颤"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   128,
+ "examId":   128,
+ "examTitle":"下列各项，引起心尖搏动向左下移位的是(  B  )",
+    "selections":[
+        {"choice":"A","body":"左心房增大"},
+        {"choice":"B","body":"左心室增大"},
+        {"choice":"C","body":"右心房增大"},
+        {"choice":"D","body":"右心室增大"},
+        {"choice":"E","body":"心包积液"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   129,
+ "examId":   129,
+ "examTitle":"淋巴结结核常发生的部位是(  B  )",
+    "selections":[
+        {"choice":"A","body":"颌下"},
+        {"choice":"B","body":"颈部血管周围"},
+        {"choice":"C","body":"腋窝"},
+        {"choice":"D","body":"滑车上"},
+        {"choice":"E","body":"腹股沟"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":130,
+    "examId":130,
+    "examTitle":"引起红细胞相对性增多的疾病是( E   )",
+    "selections":[
+        {"choice":"A","body":"脾功能亢进"},
+        {"choice":"B","body":"真性红细胞增多症"},
+        {"choice":"C","body":"肺源性心脏病"},
+        {"choice":"D","body":"紫绀型先心病"},
+        {"choice":"E","body":"大面积烧伤"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   131,
+ "examId":   131,
+ "examTitle":"下列各项，不属血浆纤维蛋白原减少的疾病是(  A  )",
+    "selections":[
+        {"choice":"A","body":"糖尿病"},
+        {"choice":"B","body":"肝硬化"},
+        {"choice":"C","body":"重症肝炎"},
+        {"choice":"D","body":"DIC"},
+        {"choice":"E","body":"原发性纤溶症"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 132,
+ "examId": 132,
+ "examTitle":"因抗利尿激素分泌过多而引起血钠减低的疾病是(  B  )",
+    "selections":[
+        {"choice":"A","body":"醛固酮增多症"},
+        {"choice":"B","body":"尿崩症"},
+        {"choice":"C","body":"幽门梗阻"},
+        {"choice":"D","body":"肺结核"},
+        {"choice":"E","body":"大面积烧伤"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 133,
+ "examId": 133,
+ "examTitle":"血清免疫球蛋白测定中，不属多克隆增高的疾病是(  E  )",
+    "selections":[
+        {"choice":"A","body":"类风湿性关节炎"},
+        {"choice":"B","body":"系统性红斑狼疮"},
+        {"choice":"C","body":"淋巴瘤"},
+        {"choice":"D","body":"慢性肝病"},
+        {"choice":"E","body":"寄生虫感染"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   134,
+ "examId":   134,
+ "examTitle":"尿中出现红细胞管型的疾病是( A )",
+    "selections":[
+        {"choice":"A","body":"狼疮性肾炎"},
+        {"choice":"B","body":"间质性肾炎"},
+        {"choice":"C","body":"肾盂肾炎"},
+        {"choice":"D","body":"肾动脉硬化"},
+        {"choice":"E","body":"膀胱炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   135,
+ "examId":   135,
+ "examTitle":"粪便隐血试验呈持续阳性的疾病是(  E  )",
+    "selections":[
+        {"choice":"A","body":"消化性溃疡"},
+        {"choice":"B","body":"急性胃肠炎"},
+        {"choice":"C","body":"阿米巴痢疾"},
+        {"choice":"D","body":"钩虫病"},
+        {"choice":"E","body":"消化道癌症"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   136,
+ "examId":   136,
+ "examTitle":"脑脊液外观呈毛玻璃样混浊的疾病是(  B  )",
+    "selections":[
+        {"choice":"A","body":"化脓性脑膜炎"},
+        {"choice":"B","body":"结核性脑膜炎"},
+        {"choice":"C","body":"病毒性脑膜炎"},
+        {"choice":"D","body":"蛛网膜下腔出血"},
+        {"choice":"E","body":"流行性乙型脑炎"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":137,
+    "examId":137,
+    "examTitle":"反映左、右心房电激动过程的是(    )",
+    "selections":[
+        {"choice":"A","body":"P波"},
+        {"choice":"B","body":"P -R段"},
+        {"choice":"C","body":"QRS波群"},
+        {"choice":"D","body":"ST段"},
+        {"choice":"E","body":"T波"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":138,
+    "examId":138,
+    "examTitle":"下列各项，可引起U波增高的是(  B  )",
+    "selections":[
+        {"choice":"A","body":"低血钙"},
+        {"choice":"B","body":"低血钾"},
+        {"choice":"C","body":"高血压"},
+        {"choice":"D","body":"冠心病"},
+        {"choice":"E","body":"高血钠"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":139,
+    "examId":139,
+    "examTitle":"心肌梗死的“损伤型”心电图改变的主要表现为(  D  )",
+    "selections":[
+        {"choice":"A","body":"R波电压降低"},
+        {"choice":"B","body":"异常Q波"},
+        {"choice":"C","body":"T波直立高耸"},
+        {"choice":"D","body":"ST段抬高"},
+        {"choice":"E","body":"T波对称性倒置"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+    "id":140,
+    "examId":140,
+    "examTitle":"Ⅱ度I型房室传导阻滞的心电图特征是(  D  )",
+    "selections":[
+        {"choice":"A","body":"P-R间期进行性缩短"},
+        {"choice":"B","body":"R-R间距进行性延长"},
+        {"choice":"C","body":"房室传导比例3:1下传多见"},
+        {"choice":"D","body":"P -R间期进行性延长，伴QRS波脱漏"},
+        {"choice":"E","body":"QRS波宽大畸形"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 141,
+ "examId": 141,
+ "examTitle":"下列各项，不出现心电轴左偏的是(  A  )",
+    "selections":[
+        {"choice":"A","body":"左后分支传导阻滞"},
+        {"choice":"B","body":"左心室肥厚"},
+        {"choice":"C","body":"左心室起源的室性心动过速"},
+        {"choice":"D","body":"横位心脏"},
+        {"choice":"E","body":"肥胖"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 142,
+ "examId": 142,
+ "examTitle":" ST段耳侈茁备尉茨均应不超过( B)",
+    "selections":[
+        {"choice":"A","body":"-0.05mV"},
+        {"choice":"B","body":"-0.ImV"},
+        {"choice":"C","body":"-0.2mV"},
+        {"choice":"D","body":"-0.3mV"},
+        {"choice":"E","body":"-0.5mV"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 143,
+ "examId": 143,
+ "examTitle":"诊断左心室肥大的最基本条件是( B )",
+    "selections":[
+        {"choice":"A","body":"电轴左偏"},
+        {"choice":"B","body":"左室高电压"},
+        {"choice":"C","body":"V5、V6导联VAT >0.05s"},
+        {"choice":"D","body":"ST-T改变"},
+        {"choice":"E","body":"QRS波群时间延长：边0.10~0.11s"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id": 144,
+ "examId": 144,
+ "examTitle":"支气管肺炎的基本病变是(  A  )",
+    "selections":[
+        {"choice":"A","body":"渗出"},
+        {"choice":"B","body":"增殖"},
+        {"choice":"C","body":"纤维化"},
+        {"choice":"D","body":"钙化"},
+        {"choice":"E","body":"肺水肿"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   145,
+ "examId":   145,
+ "examTitle":"下列各项，不属周围型肺癌的典型X线表现的是(  E  )",
+    "selections":[
+        {"choice":"A","body":"肺野中外带见一团块状致密阴影"},
+        {"choice":"B","body":"边缘不规则"},
+        {"choice":"C","body":"呈分叶状"},
+        {"choice":"D","body":"可伴有细小毛刺样影"},
+        {"choice":"E","body":"肺门影明显增大"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   146,
+ "examId":   146,
+ "examTitle":"消化道造影所示食管中、下段的黏膜皱襞明显增宽、迂曲，呈蚯蚓状或串珠状充盈缺损，管壁边缘呈锯齿状。应考虑的疾病是(  B  )",
+    "selections":[
+        {"choice":"A","body":"食管癌"},
+        {"choice":"B","body":"食管静脉曲张"},
+        {"choice":"C","body":"反流性食管炎"},
+        {"choice":"D","body":"正常食管影像"},
+        {"choice":"E","body":"食管异物"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   147,
+ "examId":   147,
+ "examTitle":" X线可见双膝关节间隙变窄，关节面变平，边缘有骨赘突出，软骨下骨质致密，关节面下方骨内呈不规整形透明区。应考虑的疾病是(  E  )",
+    "selections":[
+        {"choice":"A","body":"双膝关节结核"},
+        {"choice":"B","body":"双膝关节骨质增生"},
+        {"choice":"C","body":"双膝关节囊肿"},
+        {"choice":"D","body":"双膝关节肿瘤"},
+        {"choice":"E","body":"双膝关节退行性改变  "}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   148,
+ "examId":   148,
+ "examTitle":" CT可见颅内圆形、椭圆形的均匀密度增高影，边界清楚，周围有环形密度减低影，局部脑室受压移位，中线移位。应考虑的疾病是(C)",
+    "selections":[
+        {"choice":"A","body":"脑梗死"},
+        {"choice":"B","body":"蛛网膜下腔出血"},
+        {"choice":"C","body":"脑出血"},
+        {"choice":"D","body":"脑挫裂伤"},
+        {"choice":"E","body":"腔隙性脑梗死"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   149,
+ "examId":   149,
+ "examTitle":"属病因诊断的是(  A  )",
+    "selections":[
+        {"choice":"A","body":"肺炎球菌性肺炎"},
+        {"choice":"B","body":"休克"},
+        {"choice":"C","body":"砰吸衰竭"},
+        {"choice":"D","body":"肝硬化"},
+        {"choice":"E","body":"上消化道出血"}
+    ],
+    "isMulti":false,
+    "answer":""
+},
+{
+ "id":   150,
+ "examId":   150,
+ "examTitle":"肝颈静脉回流征阳性主要见于( C   )",
+    "selections":[
+        {"choice":"A","body":"左心衰"},
+        {"choice":"B","body":"肝硬化"},
+        {"choice":"C","body":"心包积液"},
+        {"choice":"D","body":"急性心肌梗死"},
+        {"choice":"E","body":"肾功能不全"}
+    ],
+    "isMulti":false,
+    "answer":""
+}
 ]
