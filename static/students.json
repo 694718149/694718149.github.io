@@ -765,5 +765,18 @@
 	    "payDate":"",
 	    "preSigndate":"2018年04月12日",
 	    "email":"-"
+	},
+	{
+	    "userId": 1,
+	    "id": 59,
+	    "name": "斯琴",
+	    "class": "技能+笔试",
+	    "phone":"15754930184",
+	    "address":"-",
+	    "isOldStudent":false,
+	    "isPayed":false,
+	    "payDate":"",
+	    "preSigndate":"2018年04月12日",
+	    "email":"-"
 	}
 ]
